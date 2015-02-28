@@ -10,8 +10,8 @@ Introducing your project
 Say more
 
 *)
-#r "FSharp.ProjectScaffold.dll"
-open FSharp.ProjectScaffold
+#r "SSISClient.dll"
+open SSISClient
 
 Library.hello 0
 (**

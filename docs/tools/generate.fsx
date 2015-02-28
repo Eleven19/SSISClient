@@ -4,19 +4,19 @@
 // --------------------------------------------------------------------------------------
 
 // Binaries that have XML documentation (in a corresponding generated XML file)
-let referenceBinaries = [ "##ProjectName##.dll" ]
+let referenceBinaries = [ "SSISClient.dll" ]
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/SSISClient"
 
-let githubLink = "http://github.com/##GitHome##/##GitName##"
+let githubLink = "http://github.com/Eleven19/SSISClient"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "SSISClient"
+    "project-author", "Damian Reeves"
+    "project-summary", "A client library for interacting with SQL Server Integration Services"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.org/packages/SSISClient" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

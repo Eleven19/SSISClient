@@ -1,6 +1,6 @@
-﻿module FSharp.ProjectScaffold.Tests
+module SSISClient.Tests
 
-open FSharp.ProjectTemplate
+open SSISClient
 open NUnit.Framework
 
 [<Test>]

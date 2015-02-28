@@ -1,4 +1,4 @@
-﻿namespace FSharp.ProjectTemplate
+namespace SSISClient
 
 /// Documentation for my library
 ///

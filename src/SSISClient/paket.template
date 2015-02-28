@@ -1,0 +1,23 @@
+type project
+owners
+    Damian Reeves
+authors 
+    Damian Reeves
+projectUrl
+    http://github.com/Eleven19/SSISClient
+iconUrl
+    https://raw.githubusercontent.com/Eleven19/SSISClient/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/Eleven19/SSISClient/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    SSIS SQLServer ETL FSharp
+summary
+    A client library for interacting with SQL Server Integration Services
+description
+    A client library for interacting with SQL Server Integration Services
+
+
