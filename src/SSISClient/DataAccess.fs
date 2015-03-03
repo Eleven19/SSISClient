@@ -2,7 +2,8 @@
 
 module SsisDb =
   module Catalog =
-    let createExecution = int64 5
+    open SSISClient.Connections
+    let createExecution (connection:SsisConnection) = int64 5
 
 module DataAccess =
   open System

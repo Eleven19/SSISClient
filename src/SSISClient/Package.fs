@@ -11,6 +11,7 @@ namespace SSISClient
 module Package = 
  open System
  open FSharp.Data.Sql
+ open SSISClient.Connections
 
   type Descriptor = {
     Name:string
@@ -28,6 +29,7 @@ module Package =
     DataType: ParameterDataType}
 
   type ExecutionArgs = {  
+    ConnectionProvider: ConnectionProvider    
     Parameters: Map<string,ExecutionParameter>
   }
 
@@ -39,11 +41,15 @@ module Package =
   ]
 
  let DefaultExecutionArgs = {
+    ConnectionProvider = (fun ()-> "SSISDB"|> ConnectionName |> getConnectionString |>createDbConnection)
     Parameters = DefaultExecutionParameters |> List.map (fun p-> p.Name,p) |> Map.ofList}
 
  /// Returns 42
  ///
  /// ## Parameters
  ///  - `package` - PackageDescriptor
- let execute (package:Descriptor)= 
-  SsisDb.Catalog.createExecution
+ let execute (package:Descriptor) (args:ExecutionArgs)= 
+  let ssisConnection =  SsisConnection(args.ConnectionProvider())
+  SsisDb.Catalog.createExecution ssisConnection
+ 
+ let exec (package:Descriptor) = execute package DefaultExecutionArgs 

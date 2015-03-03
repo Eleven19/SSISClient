@@ -4,9 +4,9 @@ open SSISClient
 open NUnit.Framework
 
 [<Test>]
-let ``Package.execute does not fail`` () =
+let ``Package.exec does not fail`` () =
   let result = 
-    Package.execute 
+    Package.exec
       <| Package.descriptor "SSISManagement-Examples" "EmptyParameterLessPackage.dtsx" 
 
   printfn "%i" result
