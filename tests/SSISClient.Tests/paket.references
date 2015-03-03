@@ -4,3 +4,4 @@ SQLProvider
 Chessie
 Insight.Database
 FsUnit
+FSharp.Data.SqlClient

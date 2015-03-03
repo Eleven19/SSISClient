@@ -1,6 +1,7 @@
 source https://nuget.org/api/v2
 
 nuget Chessie
+nuget FSharp.Data.SqlClient
 nuget FSharp.Formatting
 nuget FsUnit
 nuget Insight.Database
