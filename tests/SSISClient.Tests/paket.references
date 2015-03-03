@@ -1,2 +1,6 @@
 NUnit
 NUnit.Runners
+SQLProvider
+Chessie
+Insight.Database
+FsUnit

@@ -1,9 +1,13 @@
 source https://nuget.org/api/v2
 
+nuget Chessie
 nuget FSharp.Formatting
-nuget NUnit 
+nuget FsUnit
+nuget Insight.Database
+nuget NUnit
 nuget NUnit.Runners
 nuget FAKE
+nuget SQLProvider
 nuget SourceLink.Fake
 
 github fsharp/FAKE modules/Octokit/Octokit.fsx
