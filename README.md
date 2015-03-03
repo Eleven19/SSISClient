@@ -1,9 +1,9 @@
-[![Issue Stats](http://issuestats.com/github/fsprojects/ProjectScaffold/badge/issue)](http://issuestats.com/github/fsprojects/ProjectScaffold)
-[![Issue Stats](http://issuestats.com/github/fsprojects/ProjectScaffold/badge/pr)](http://issuestats.com/github/fsprojects/ProjectScaffold)
+[![Issue Stats](http://issuestats.com/github/Eleven19/SSISClient/badge/issue)](http://issuestats.com/github/Eleven19/SSISClient)
+[![Issue Stats](http://issuestats.com/github/Eleven19/SSISClient/badge/pr)](http://issuestats.com/github/Eleven19/SSISClient)
 
-# ProjectScaffold
+# SSISClient
 
-This project can be used to scaffold a prototypical .NET solution including file system layout and tooling. This includes a build process that: 
+A client library for interacting/integrating with SQL Server Integration Services: 
 
 * updates all AssemblyInfo files
 * compiles the application and runs all test projects
@@ -24,8 +24,5 @@ Documentation: http://fsprojects.github.io/ProjectScaffold
 
 ## Maintainer(s)
 
-- [@forki](https://github.com/forki)
-- [@pblasucci](https://github.com/pblasucci)
-- [@sergey-tihon](https://github.com/sergey-tihon)
+- [@DamianReeves](https://github.com/DamianReeves)
 
-The default maintainer account for projects under "fsprojects" is [@fsgit](https://github.com/fsgit) - F# Community Project Incubation Space (repo management)
